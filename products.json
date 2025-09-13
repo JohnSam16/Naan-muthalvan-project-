@@ -1,0 +1,582 @@
+[
+  {
+    "id": 1,
+    "name": "ZenBook Pro Duo",
+    "category": "Laptops",
+    "price_inr": 210000,
+    "rating": 4.8,
+    "image": "https://i.imgur.com/gO5ZZ72.png",
+    "details": "A powerful laptop with a dual-screen setup, perfect for multitasking professionals and creators. Features an Intel Core i9 processor and NVIDIA RTX graphics.",
+    "delivery_eta": "2-3 business days"
+  },
+  {
+    "id": 2,
+    "name": "Galaxy S24 Ultra",
+    "category": "Mobiles",
+    "price_inr": 130000,
+    "rating": 4.9,
+    "image": "https://i.imgur.com/k9fLE82.png",
+    "details": "The ultimate smartphone experience with a pro-grade camera, stunning display, and an integrated S Pen for productivity on the go.",
+    "delivery_eta": "1-2 business days"
+  },
+  {
+    "id": 3,
+    "name": "WH-1000XM5 Headphones",
+    "category": "Electronics",
+    "price_inr": 29990,
+    "rating": 4.7,
+    "image": "https://i.imgur.com/vH9i3MA.png",
+    "details": "Industry-leading noise-canceling headphones with exceptional sound quality and a comfortable, lightweight design for all-day listening.",
+    "delivery_eta": "3-4 business days"
+  },
+  {
+    "id": 4,
+    "name": "4K OLED Smart TV",
+    "category": "TV",
+    "price_inr": 150000,
+    "rating": 4.6,
+    "image": "https://i.imgur.com/RZr818L.png",
+    "details": "Experience perfect blacks and infinite contrast with this 65-inch OLED TV. Smart features and a cinematic sound system bring entertainment to life.",
+    "delivery_eta": "5-7 business days"
+  },
+  {
+    "id": 5,
+    "name": "Classic Leather Watch",
+    "category": "Watch",
+    "price_inr": 18500,
+    "rating": 4.5,
+    "image": "https://i.imgur.com/yV7JpJf.png",
+    "details": "A timeless timepiece with a genuine leather strap and a minimalist dial. Perfect for both formal and casual occasions.",
+    "delivery_eta": "4-6 business days"
+  },
+  {
+    "id": 6,
+    "name": "Smart Coffee Maker",
+    "category": "Home & Kitchen",
+    "price_inr": 8500,
+    "rating": 4.3,
+    "image": "https://i.imgur.com/S2d9fQw.png",
+    "details": "Brew the perfect cup of coffee from your phone. This smart maker allows you to schedule brews, adjust strength, and more.",
+    "delivery_eta": "2-3 business days"
+  },
+  {
+    "id": 7,
+    "name": "MacBook Air M3",
+    "category": "Laptops",
+    "price_inr": 115000,
+    "rating": 4.9,
+    "image": "https://i.imgur.com/4hGzTsq.png",
+    "details": "Supercharged by the M3 chip, the MacBook Air is incredibly thin and fast, with a stunning Liquid Retina display and all-day battery life.",
+    "delivery_eta": "1-2 business days"
+  },
+  {
+    "id": 8,
+    "name": "Pixel 8 Pro",
+    "category": "Mobiles",
+    "price_inr": 107000,
+    "rating": 4.8,
+    "image": "https://i.imgur.com/Y3zXbY8.png",
+    "details": "The smartest Google phone yet, with an amazing camera powered by AI, a brilliant display, and a powerful Tensor G3 chip.",
+    "delivery_eta": "1-2 business days"
+  },
+  {
+    "id": 9,
+    "name": "Ergonomic Office Chair",
+    "category": "Furniture",
+    "price_inr": 22000,
+    "rating": 4.7,
+    "image": "https://i.imgur.com/8QpA1gq.png",
+    "details": "Stay comfortable and productive with this fully adjustable ergonomic chair, featuring lumbar support and a breathable mesh back.",
+    "delivery_eta": "5-8 business days"
+  },
+  {
+    "id": 10,
+    "name": "Wireless Mechanical Keyboard",
+    "category": "Electronics",
+    "price_inr": 9500,
+    "rating": 4.8,
+    "image": "https://i.imgur.com/O2qkG98.png",
+    "details": "A compact 75% layout mechanical keyboard with satisfying tactile switches, RGB backlighting, and dual-mode connectivity (Bluetooth/Wired).",
+    "delivery_eta": "3-5 business days"
+  },
+  {
+    "id": 11,
+    "name": "Robot Vacuum Cleaner",
+    "category": "Home & Kitchen",
+    "price_inr": 35000,
+    "rating": 4.6,
+    "image": "https://i.imgur.com/V2fV8p0.png",
+    "details": "Smart cleaning with LiDAR navigation and powerful suction. Control and schedule cleanings from anywhere with the mobile app.",
+    "delivery_eta": "4-6 business days"
+  },
+  {
+    "id": 12,
+    "name": "Air Purifier",
+    "category": "Home & Kitchen",
+    "price_inr": 15000,
+    "rating": 4.7,
+    "image": "https://i.imgur.com/6XyqV2W.png",
+    "details": "Breathe cleaner air with a True HEPA filter that captures 99.97% of airborne particles, including dust, pollen, and smoke.",
+    "delivery_eta": "2-4 business days"
+  },
+  {
+    "id": 13,
+    "name": "Fitness Tracker",
+    "category": "Wearables",
+    "price_inr": 4500,
+    "rating": 4.5,
+    "image": "https://i.imgur.com/sE2bZ3h.png",
+    "details": "Track your steps, heart rate, sleep patterns, and workouts with this sleek and water-resistant fitness tracker.",
+    "delivery_eta": "1-3 business days"
+  },
+  {
+    "id": 14,
+    "name": "Portable Bluetooth Speaker",
+    "category": "Audio",
+    "price_inr": 6000,
+    "rating": 4.6,
+    "image": "https://i.imgur.com/z0f5X7p.png",
+    "details": "Enjoy rich, powerful sound on the go. This speaker is waterproof, dustproof, and has a 12-hour battery life.",
+    "delivery_eta": "2-3 business days"
+  },
+  {
+    "id": 15,
+    "name": "Gaming Mouse",
+    "category": "Electronics",
+    "price_inr": 5500,
+    "rating": 4.8,
+    "image": "https://i.imgur.com/J3sC1N5.png",
+    "details": "Gain a competitive edge with a lightweight, ergonomic gaming mouse featuring a high-precision optical sensor and customizable buttons.",
+    "delivery_eta": "2-4 business days"
+  },
+  {
+    "id": 16,
+    "name": "Modern Bookshelf",
+    "category": "Furniture",
+    "price_inr": 18000,
+    "rating": 4.5,
+    "image": "https://i.imgur.com/iYv32GZ.png",
+    "details": "A stylish and sturdy 5-tier bookshelf perfect for displaying your favorite books, plants, and decor items.",
+    "delivery_eta": "7-10 business days"
+  },
+  {
+    "id": 17,
+    "name": "Digital Drawing Tablet",
+    "category": "Electronics",
+    "price_inr": 8000,
+    "rating": 4.7,
+    "image": "https://i.imgur.com/s6z7X2t.png",
+    "details": "Unleash your creativity with this responsive drawing tablet, compatible with all major design software.",
+    "delivery_eta": "3-5 business days"
+  },
+  {
+    "id": 18,
+    "name": "Air Fryer",
+    "category": "Home & Kitchen",
+    "price_inr": 9000,
+    "rating": 4.6,
+    "image": "https://i.imgur.com/pYqfX7W.png",
+    "details": "Enjoy your favorite fried foods with up to 85% less fat. This 5.5L air fryer is perfect for families.",
+    "delivery_eta": "3-4 business days"
+  },
+  {
+    "id": 19,
+    "name": "E-Reader",
+    "category": "Electronics",
+    "price_inr": 12000,
+    "rating": 4.9,
+    "image": "https://i.imgur.com/L1n7qZ7.png",
+    "details": "Carry your library in your pocket. Features a glare-free, paper-like display and a battery that lasts for weeks.",
+    "delivery_eta": "2-3 business days"
+  },
+  {
+    "id": 20,
+    "name": "Smart LED Light Strip",
+    "category": "Smart Home",
+    "price_inr": 2500,
+    "rating": 4.4,
+    "image": "https://i.imgur.com/c8f2bX1.png",
+    "details": "Transform any room with vibrant, customizable RGB lighting. Control colors and effects with your voice or a mobile app.",
+    "delivery_eta": "2-4 business days"
+  },
+  {
+    "id": 21,
+    "name": "Yoga Mat",
+    "category": "Sports",
+    "price_inr": 3000,
+    "rating": 4.8,
+    "image": "https://i.imgur.com/8QpA1gq.png",
+    "details": "A high-density, non-slip yoga mat that provides excellent cushioning and support for your practice.",
+    "delivery_eta": "1-3 business days"
+  },
+  {
+    "id": 22,
+    "name": "Electric Kettle",
+    "category": "Home & Kitchen",
+    "price_inr": 3500,
+    "rating": 4.5,
+    "image": "https://i.imgur.com/S2d9fQw.png",
+    "details": "Boil water in minutes with this stylish stainless steel electric kettle, featuring auto shut-off and boil-dry protection.",
+    "delivery_eta": "2-3 business days"
+  },
+  {
+    "id": 23,
+    "name": "Smartwatch",
+    "category": "Wearables",
+    "price_inr": 25000,
+    "rating": 4.7,
+    "image": "https://i.imgur.com/k9fLE82.png",
+    "details": "The ultimate smartwatch with advanced health monitoring, GPS, and a stunning always-on display.",
+    "delivery_eta": "1-2 business days"
+  },
+  {
+    "id": 24,
+    "name": "Gaming Headset",
+    "category": "Audio",
+    "price_inr": 7500,
+    "rating": 4.6,
+    "image": "https://i.imgur.com/vH9i3MA.png",
+    "details": "Immerse yourself in the game with crystal-clear audio and a noise-canceling microphone.",
+    "delivery_eta": "2-4 business days"
+  },
+  {
+    "id": 25,
+    "name": "DSLR Camera",
+    "category": "Cameras",
+    "price_inr": 55000,
+    "rating": 4.8,
+    "image": "https://i.imgur.com/J3sC1N5.png",
+    "details": "Capture stunning photos and videos with this versatile DSLR, perfect for beginners and enthusiasts.",
+    "delivery_eta": "3-5 business days"
+  },
+  {
+    "id": 26,
+    "name": "Action Camera",
+    "category": "Cameras",
+    "price_inr": 32000,
+    "rating": 4.7,
+    "image": "https://i.imgur.com/s6z7X2t.png",
+    "details": "Record your adventures in stunning 4K. This rugged and waterproof camera is ready for anything.",
+    "delivery_eta": "2-4 business days"
+  },
+  {
+    "id": 27,
+    "name": "Security Camera",
+    "category": "Smart Home",
+    "price_inr": 6000,
+    "rating": 4.5,
+    "image": "https://i.imgur.com/V2fV8p0.png",
+    "details": "Keep an eye on your home from anywhere with this Wi-Fi security camera, featuring night vision and two-way audio.",
+    "delivery_eta": "2-3 business days"
+  },
+  {
+    "id": 28,
+    "name": "Soundbar",
+    "category": "Audio",
+    "price_inr": 18000,
+    "rating": 4.6,
+    "image": "https://i.imgur.com/z0f5X7p.png",
+    "details": "Upgrade your TV's audio with this powerful soundbar, delivering cinematic sound in a sleek package.",
+    "delivery_eta": "3-5 business days"
+  },
+  {
+    "id": 29,
+    "name": "VR Headset",
+    "category": "Gaming",
+    "price_inr": 45000,
+    "rating": 4.7,
+    "image": "https://i.imgur.com/sE2bZ3h.png",
+    "details": "Step into new worlds with this immersive VR headset, offering stunning visuals and intuitive controls.",
+    "delivery_eta": "4-6 business days"
+  },
+  {
+    "id": 30,
+    "name": "Drone",
+    "category": "Electronics",
+    "price_inr": 65000,
+    "rating": 4.8,
+    "image": "https://i.imgur.com/6XyqV2W.png",
+    "details": "Capture breathtaking aerial photos and videos with this easy-to-fly drone, featuring a 4K camera and intelligent flight modes.",
+    "delivery_eta": "5-7 business days"
+  },
+  {
+    "id": 31,
+    "name": "Projector",
+    "category": "Electronics",
+    "price_inr": 75000,
+    "rating": 4.6,
+    "image": "https://i.imgur.com/iYv32GZ.png",
+    "details": "Create a home theater experience with this bright and vibrant projector, capable of producing a massive 150-inch image.",
+    "delivery_eta": "5-8 business days"
+  },
+  {
+    "id": 32,
+    "name": "Electric Toothbrush",
+    "category": "Health",
+    "price_inr": 5000,
+    "rating": 4.7,
+    "image": "https://i.imgur.com/c8f2bX1.png",
+    "details": "Achieve a superior clean with this electric toothbrush, featuring multiple brushing modes and a built-in timer.",
+    "delivery_eta": "1-3 business days"
+  },
+  {
+    "id": 33,
+    "name": "Hair Dryer",
+    "category": "Beauty",
+    "price_inr": 4000,
+    "rating": 4.5,
+    "image": "https://i.imgur.com/L1n7qZ7.png",
+    "details": "Dry your hair quickly and efficiently with this powerful and lightweight hair dryer.",
+    "delivery_eta": "2-3 business days"
+  },
+  {
+    "id": 34,
+    "name": "Beard Trimmer",
+    "category": "Beauty",
+    "price_inr": 3500,
+    "rating": 4.6,
+    "image": "https://i.imgur.com/pYqfX7W.png",
+    "details": "Keep your beard looking sharp with this precise and easy-to-use beard trimmer.",
+    "delivery_eta": "1-3 business days"
+  },
+  {
+    "id": 35,
+    "name": "Blender",
+    "category": "Home & Kitchen",
+    "price_inr": 7000,
+    "rating": 4.7,
+    "image": "https://i.imgur.com/J3sC1N5.png",
+    "details": "Create delicious smoothies, soups, and sauces with this powerful and versatile blender.",
+    "delivery_eta": "3-5 business days"
+  },
+  {
+    "id": 36,
+    "name": "Microwave Oven",
+    "category": "Home & Kitchen",
+    "price_inr": 12000,
+    "rating": 4.5,
+    "image": "https://i.imgur.com/s6z7X2t.png",
+    "details": "Heat up meals in a flash with this convenient and easy-to-use microwave oven.",
+    "delivery_eta": "4-6 business days"
+  },
+  {
+    "id": 37,
+    "name": "Toaster",
+    "category": "Home & Kitchen",
+    "price_inr": 2500,
+    "rating": 4.4,
+    "image": "https://i.imgur.com/V2fV8p0.png",
+    "details": "Toast your bread to perfection with this stylish and efficient toaster.",
+    "delivery_eta": "2-3 business days"
+  },
+  {
+    "id": 38,
+    "name": "Running Shoes",
+    "category": "Sports",
+    "price_inr": 8000,
+    "rating": 4.8,
+    "image": "https://i.imgur.com/8QpA1gq.png",
+    "details": "Hit the ground running with these comfortable and supportive running shoes.",
+    "delivery_eta": "2-4 business days"
+  },
+  {
+    "id": 39,
+    "name": "Dumbbells",
+    "category": "Sports",
+    "price_inr": 5000,
+    "rating": 4.7,
+    "image": "https://i.imgur.com/S2d9fQw.png",
+    "details": "Build strength and muscle with this versatile set of dumbbells.",
+    "delivery_eta": "3-5 business days"
+  },
+  {
+    "id": 40,
+    "name": "Treadmill",
+    "category": "Sports",
+    "price_inr": 60000,
+    "rating": 4.6,
+    "image": "https://i.imgur.com/k9fLE82.png",
+    "details": "Get a great cardio workout at home with this feature-packed treadmill.",
+    "delivery_eta": "7-10 business days"
+  },
+  {
+    "id": 41,
+    "name": "Bicycle",
+    "category": "Sports",
+    "price_inr": 20000,
+    "rating": 4.7,
+    "image": "https://i.imgur.com/vH9i3MA.png",
+    "details": "Explore the great outdoors with this sturdy and reliable bicycle.",
+    "delivery_eta": "5-7 business days"
+  },
+  {
+    "id": 42,
+    "name": "Tent",
+    "category": "Outdoor",
+    "price_inr": 10000,
+    "rating": 4.5,
+    "image": "https://i.imgur.com/RZr818L.png",
+    "details": "Enjoy a comfortable night's sleep under the stars with this spacious and easy-to-set-up tent.",
+    "delivery_eta": "3-5 business days"
+  },
+  {
+    "id": 43,
+    "name": "Backpack",
+    "category": "Outdoor",
+    "price_inr": 6000,
+    "rating": 4.6,
+    "image": "https://i.imgur.com/yV7JpJf.png",
+    "details": "Carry all your essentials in comfort with this durable and spacious backpack.",
+    "delivery_eta": "2-4 business days"
+  },
+  {
+    "id": 44,
+    "name": "Sleeping Bag",
+    "category": "Outdoor",
+    "price_inr": 4000,
+    "rating": 4.4,
+    "image": "https://i.imgur.com/S2d9fQw.png",
+    "details": "Stay warm and cozy on your next camping trip with this comfortable sleeping bag.",
+    "delivery_eta": "2-3 business days"
+  },
+  {
+    "id": 45,
+    "name": "Cooler",
+    "category": "Outdoor",
+    "price_inr": 3000,
+    "rating": 4.3,
+    "image": "https://i.imgur.com/4hGzTsq.png",
+    "details": "Keep your food and drinks cold on the go with this spacious and durable cooler.",
+    "delivery_eta": "2-3 business days"
+  },
+  {
+    "id": 46,
+    "name": "Grill",
+    "category": "Outdoor",
+    "price_inr": 15000,
+    "rating": 4.7,
+    "image": "https://i.imgur.com/Y3zXbY8.png",
+    "details": "Cook up a delicious meal for your friends and family with this high-quality grill.",
+    "delivery_eta": "5-7 business days"
+  },
+  {
+    "id": 47,
+    "name": "Desk",
+    "category": "Furniture",
+    "price_inr": 25000,
+    "rating": 4.6,
+    "image": "https://i.imgur.com/gO5ZZ72.png",
+    "details": "Create a productive workspace with this stylish and spacious desk.",
+    "delivery_eta": "7-10 business days"
+  },
+  {
+    "id": 48,
+    "name": "Bed",
+    "category": "Furniture",
+    "price_inr": 40000,
+    "rating": 4.8,
+    "image": "https://i.imgur.com/k9fLE82.png",
+    "details": "Get a good night's sleep in this comfortable and stylish bed.",
+    "delivery_eta": "10-14 business days"
+  },
+  {
+    "id": 49,
+    "name": "Sofa",
+    "category": "Furniture",
+    "price_inr": 60000,
+    "rating": 4.7,
+    "image": "https://i.imgur.com/vH9i3MA.png",
+    "details": "Relax in comfort and style with this spacious and comfortable sofa.",
+    "delivery_eta": "10-14 business days"
+  },
+  {
+    "id": 50,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price_inr": 35000,
+    "rating": 4.6,
+    "image": "https://i.imgur.com/RZr818L.png",
+    "details": "Enjoy meals with your family and friends at this stylish and spacious dining table.",
+    "delivery_eta": "10-14 business days"
+  },
+  {
+    "id": 51,
+    "name": "Coffee Table",
+    "category": "Furniture",
+    "price_inr": 15000,
+    "rating": 4.5,
+    "image": "https://i.imgur.com/yV7JpJf.png",
+    "details": "Complete your living room with this stylish and functional coffee table.",
+    "delivery_eta": "7-10 business days"
+  },
+  {
+    "id": 52,
+    "name": "TV Stand",
+    "category": "Furniture",
+    "price_inr": 20000,
+    "rating": 4.4,
+    "image": "https://i.imgur.com/S2d9fQw.png",
+    "details": "Display your TV in style with this modern and functional TV stand.",
+    "delivery_eta": "7-10 business days"
+  },
+  {
+    "id": 53,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price_inr": 50000,
+    "rating": 4.7,
+    "image": "https://i.imgur.com/4hGzTsq.png",
+    "details": "Store your clothes and accessories in style with this spacious and elegant wardrobe.",
+    "delivery_eta": "10-14 business days"
+  },
+  {
+    "id": 54,
+    "name": "Nightstand",
+    "category": "Furniture",
+    "price_inr": 8000,
+    "rating": 4.3,
+    "image": "https://i.imgur.com/Y3zXbY8.png",
+    "details": "Keep your essentials within reach with this stylish and functional nightstand.",
+    "delivery_eta": "5-7 business days"
+  },
+  {
+    "id": 55,
+    "name": "Dresser",
+    "category": "Furniture",
+    "price_inr": 30000,
+    "rating": 4.6,
+    "image": "https://i.imgur.com/gO5ZZ72.png",
+    "details": "Get ready in style with this elegant and spacious dresser.",
+    "delivery_eta": "7-10 business days"
+  },
+  {
+    "id": 56,
+    "name": "Mirror",
+    "category": "Furniture",
+    "price_inr": 5000,
+    "rating": 4.2,
+    "image": "https://i.imgur.com/k9fLE82.png",
+    "details": "Add a touch of elegance to your home with this stylish and functional mirror.",
+    "delivery_eta": "3-5 business days"
+  },
+  {
+    "id": 57,
+    "name": "Rug",
+    "category": "Home Decor",
+    "price_inr": 10000,
+    "rating": 4.5,
+    "image": "https://i.imgur.com/vH9i3MA.png",
+    "details": "Add warmth and style to your home with this beautiful and comfortable rug.",
+    "delivery_eta": "5-7 business days"
+  },
+  {
+    "id": 58,
+    "name": "Curtains",
+    "category": "Home Decor",
+    "price_inr": 4000,
+    "rating": 4.4,
+    "image": "https://i.imgur.com/RZr818L.png",
+    "details": "Add a touch of elegance to your home with these stylish and functional curtains.",
+    "delivery_eta": "3-5 business days"
+  }
+]

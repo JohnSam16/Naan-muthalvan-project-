@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Gemini Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-body">
+
+    <div id="login-page">
+        <div class="login-container">
+            <h1>Welcome to the Store</h1>
+            <p>Enter your name to begin your shopping experience.</p>
+            <form id="login-form">
+                <input type="text" id="username" placeholder="Your Name" required autocomplete="off">
+                <button type="submit" class="cta-button">Enter Store</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Simple script for the login page
+        document.getElementById('login-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const username = document.getElementById('username').value.trim();
+            if (username) {
+                // Store the username and redirect to the catalog page
+                localStorage.setItem('username', username);
+                window.location.href = 'index.html';
+            }
+        });
+    </script>
+</body>
+</html>

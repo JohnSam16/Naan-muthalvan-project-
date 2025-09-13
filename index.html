@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Our Product Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div id="catalog-page">
+        <div class="overlay hidden"></div>
+        <header>
+            <div class="header-content">
+                <button id="menu-button" class="icon-button mobile-only">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <h1 id="welcome-message"></h1>
+                <div class="search-bar-container">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="search-bar" placeholder="Search for products...">
+                </div>
+                <button id="cart-button" class="icon-button">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-count">0</span>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <aside id="filters-sidebar">
+                <div class="sidebar-header">
+                    <h2>Filters</h2>
+                    <button id="close-filters-btn" class="icon-button mobile-only">&times;</button>
+                </div>
+                <div class="filter-group">
+                    <h3 class="filter-title">Category <i class="fas fa-chevron-down"></i></h3>
+                    <div class="filter-options" id="category-filter"></div>
+                </div>
+                <div class="filter-group">
+                    <h3 class="filter-title">Price Range <i class="fas fa-chevron-down"></i></h3>
+                    <div class="filter-options">
+                        <input type="range" id="price-filter" min="0" max="250000" step="1000" value="250000">
+                        <span id="price-value">Up to ₹2,50,000</span>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h3 class="filter-title">Rating <i class="fas fa-chevron-down"></i></h3>
+                    <div class="filter-options" id="rating-filter">
+                        <label><input type="radio" name="rating" value="4.5" checked> 4.5 <i class="fas fa-star"></i> & Up</label>
+                        <label><input type="radio" name="rating" value="4"> 4 <i class="fas fa-star"></i> & Up</label>
+                        <label><input type="radio" name="rating" value="3"> 3 <i class="fas fa-star"></i> & Up</label>
+                        <label><input type="radio" name="rating" value="0"> All Ratings</label>
+                    </div>
+                </div>
+                 <button id="reset-filters" class="cta-button">Reset Filters</button>
+            </aside>
+
+            <section class="product-section">
+                <div id="product-grid">
+                    </div>
+                <div id="pagination-container">
+                    </div>
+            </section>
+        </main>
+    </div>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content cart-content">
+            <span class="close-cart-button">&times;</span>
+            <h2>Your Cart</h2>
+            <div id="cart-items"><p>Your cart is empty.</p></div>
+            <div id="cart-footer">
+                <h3 id="cart-total">Total: ₹0</h3>
+                <button class="cta-button">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
